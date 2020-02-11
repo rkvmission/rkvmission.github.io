@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+<!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.helper.ie8.js"></script><![endif]-->
 </head>
 
 <body>
@@ -219,7 +221,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="our_cuauses_single owl-carousel owl-theme">
+                       <div class="our_cuauses_single owl-carousel owl-theme">
+						<!--<div class="my-slider"> -->
                             <div class="item">
                                 <img src="img/our_cuauses_one.jpg" alt="">
                                 <div class="for_padding">
@@ -471,6 +474,15 @@
             s.parentNode.insertBefore(ga, s);
         })();
     </script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+	<script type = "text/javascript">
+	var slider = tns({
+    container: '.my-slider',
+    items: 3,
+    slideBy: 'page',
+    autoplay: true
+  });
+  </script>
 </body>
 
 </html>
